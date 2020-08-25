@@ -1,1 +1,1167 @@
-hello
+<!DOCTYPE html>
+<!-- saved from url=(0019)https://cssgrid.io/ -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>法语猫博士</title>
+    <link rel="stylesheet" href="./index_files/style-GRID.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://cssgrid.io/images/favicon-GRID.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      content="https://cssgrid.io/images/GRID-social-share.png"
+      property="og:image"
+    />
+    <meta content="CSS Grid" property="og:title" />
+    <meta content="website" property="og:type" />
+    <meta content="https://cssgrid.io" property="og:url" />
+    <meta content="CSS Grid" property="og:site_name" />
+    <meta
+      content="Learn all about CSS Grid with Wes Bos in this free video series!"
+      property="og:description"
+    />
+    <meta name="twitter:card" content="photo" />
+    <meta name="twitter:site" content="@wesbos" />
+    <meta name="twitter:creator" content="@wesbos" />
+    <meta name="twitter:title" content="CSS Grid" />
+    <meta
+      name="twitter:description"
+      content="Learn all about CSS Grid with Wes Bos in this free video series!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssgrid.io/images/GRID-social-share.png"
+    />
+    <meta name="twitter:url" content="https://cssgrid.io" />
+    <script
+      charset="utf-8"
+      src="./index_files/button.683df8cb64b87a8e4759b1fa17147ad1.js"
+    ></script>
+    <style type="text/css">
+      .fb_hidden {
+        position: absolute;
+        top: -10000px;
+        z-index: 10001;
+      }
+      .fb_reposition {
+        overflow: hidden;
+        position: relative;
+      }
+      .fb_invisible {
+        display: none;
+      }
+      .fb_reset {
+        background: none;
+        border: 0;
+        border-spacing: 0;
+        color: #000;
+        cursor: auto;
+        direction: ltr;
+        font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+        font-size: 11px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        letter-spacing: normal;
+        line-height: 1;
+        margin: 0;
+        overflow: visible;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0;
+        text-shadow: none;
+        text-transform: none;
+        visibility: visible;
+        white-space: normal;
+        word-spacing: normal;
+      }
+      .fb_reset > div {
+        overflow: hidden;
+      }
+      @keyframes fb_transform {
+        from {
+          opacity: 0;
+          transform: scale(0.95);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      .fb_animate {
+        animation: fb_transform 0.3s forwards;
+      }
+      .fb_dialog {
+        background: rgba(82, 82, 82, 0.7);
+        position: absolute;
+        top: -10000px;
+        z-index: 10001;
+      }
+      .fb_dialog_advanced {
+        border-radius: 8px;
+        padding: 10px;
+      }
+      .fb_dialog_content {
+        background: #fff;
+        color: #373737;
+      }
+      .fb_dialog_close_icon {
+        background: url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+          no-repeat scroll 0 0 transparent;
+        cursor: pointer;
+        display: block;
+        height: 15px;
+        position: absolute;
+        right: 18px;
+        top: 17px;
+        width: 15px;
+      }
+      .fb_dialog_mobile .fb_dialog_close_icon {
+        left: 5px;
+        right: auto;
+        top: 5px;
+      }
+      .fb_dialog_padding {
+        background-color: transparent;
+        position: absolute;
+        width: 1px;
+        z-index: -1;
+      }
+      .fb_dialog_close_icon:hover {
+        background: url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+          no-repeat scroll 0 -15px transparent;
+      }
+      .fb_dialog_close_icon:active {
+        background: url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+          no-repeat scroll 0 -30px transparent;
+      }
+      .fb_dialog_iframe {
+        line-height: 0;
+      }
+      .fb_dialog_content .dialog_title {
+        background: #6d84b4;
+        border: 1px solid #365899;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+      }
+      .fb_dialog_content .dialog_title > span {
+        background: url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif)
+          no-repeat 5px 50%;
+        float: left;
+        padding: 5px 0 7px 26px;
+      }
+      body.fb_hidden {
+        height: 100%;
+        left: 0;
+        margin: 0;
+        overflow: visible;
+        position: absolute;
+        top: -10000px;
+        transform: none;
+        width: 100%;
+      }
+      .fb_dialog.fb_dialog_mobile.loading {
+        background: url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif)
+          white no-repeat 50% 50%;
+        min-height: 100%;
+        min-width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        z-index: 10001;
+      }
+      .fb_dialog.fb_dialog_mobile.loading.centered {
+        background: none;
+        height: auto;
+        min-height: initial;
+        min-width: initial;
+        width: auto;
+      }
+      .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
+        width: 100%;
+      }
+      .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
+        background: none;
+      }
+      .loading.centered #fb_dialog_loader_close {
+        clear: both;
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        padding-top: 20px;
+      }
+      #fb-root #fb_dialog_ipad_overlay {
+        background: rgba(0, 0, 0, 0.4);
+        bottom: 0;
+        left: 0;
+        min-height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 10000;
+      }
+      #fb-root #fb_dialog_ipad_overlay.hidden {
+        display: none;
+      }
+      .fb_dialog.fb_dialog_mobile.loading iframe {
+        visibility: hidden;
+      }
+      .fb_dialog_mobile .fb_dialog_iframe {
+        position: sticky;
+        top: 0;
+      }
+      .fb_dialog_content .dialog_header {
+        background: linear-gradient(from(#738aba), to(#2c4987));
+        border-bottom: 1px solid;
+        border-color: #043b87;
+        box-shadow: white 0 1px 1px -1px inset;
+        color: #fff;
+        font: bold 14px Helvetica, sans-serif;
+        text-overflow: ellipsis;
+        text-shadow: rgba(0, 30, 84, 0.296875) 0 -1px 0;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      .fb_dialog_content .dialog_header table {
+        height: 43px;
+        width: 100%;
+      }
+      .fb_dialog_content .dialog_header td.header_left {
+        font-size: 12px;
+        padding-left: 5px;
+        vertical-align: middle;
+        width: 60px;
+      }
+      .fb_dialog_content .dialog_header td.header_right {
+        font-size: 12px;
+        padding-right: 5px;
+        vertical-align: middle;
+        width: 60px;
+      }
+      .fb_dialog_content .touchable_button {
+        background: linear-gradient(from(#4267b2), to(#2a4887));
+        background-clip: padding-box;
+        border: 1px solid #29487d;
+        border-radius: 3px;
+        display: inline-block;
+        line-height: 18px;
+        margin-top: 3px;
+        max-width: 85px;
+        padding: 4px 12px;
+        position: relative;
+      }
+      .fb_dialog_content .dialog_header .touchable_button input {
+        background: none;
+        border: none;
+        color: #fff;
+        font: bold 12px Helvetica, sans-serif;
+        margin: 2px -12px;
+        padding: 2px 6px 3px 6px;
+        text-shadow: rgba(0, 30, 84, 0.296875) 0 -1px 0;
+      }
+      .fb_dialog_content .dialog_header .header_center {
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 18px;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .fb_dialog_content .dialog_content {
+        background: url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif)
+          no-repeat 50% 50%;
+        border: 1px solid #4a4a4a;
+        border-bottom: 0;
+        border-top: 0;
+        height: 150px;
+      }
+      .fb_dialog_content .dialog_footer {
+        background: #f5f6f7;
+        border: 1px solid #4a4a4a;
+        border-top-color: #ccc;
+        height: 40px;
+      }
+      #fb_dialog_loader_close {
+        float: left;
+      }
+      .fb_dialog.fb_dialog_mobile .fb_dialog_close_button {
+        text-shadow: rgba(0, 30, 84, 0.296875) 0 -1px 0;
+      }
+      .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+        visibility: hidden;
+      }
+      #fb_dialog_loader_spinner {
+        animation: rotateSpinner 1.2s linear infinite;
+        background-color: transparent;
+        background-image: url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        height: 24px;
+        width: 24px;
+      }
+      @keyframes rotateSpinner {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .fb_iframe_widget {
+        display: inline-block;
+        position: relative;
+      }
+      .fb_iframe_widget span {
+        display: inline-block;
+        position: relative;
+        text-align: justify;
+      }
+      .fb_iframe_widget iframe {
+        position: absolute;
+      }
+      .fb_iframe_widget_fluid_desktop,
+      .fb_iframe_widget_fluid_desktop span,
+      .fb_iframe_widget_fluid_desktop iframe {
+        max-width: 100%;
+      }
+      .fb_iframe_widget_fluid_desktop iframe {
+        min-width: 220px;
+        position: relative;
+      }
+      .fb_iframe_widget_lift {
+        z-index: 1;
+      }
+      .fb_iframe_widget_fluid {
+        display: inline;
+      }
+      .fb_iframe_widget_fluid span {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <p class="hero__text hero__text--griddy">
+        Let's get <span class="hl">Griddy</span> with it
+      </p>
+      <h1 class="magic">
+        <a href="https://space.bilibili.com/488922720/" class="hero__title"
+          ><span class="💩">一</span><span class="🙏🏻">个</span
+            ><span class="🐩">法语</span
+          ><span class="💁🏻‍♂️">老师</span>
+          <span class="🇨🇦">的</span>
+          <span class="😘">日常</span>
+          <!-- <span class="🤹🏻‍♂️">I</span><span class="🚒">D</span
+          ><span class="🍕">.</span></a
+        > -->
+      </h1>
+      <p class="hero__text">
+        Learn <span class="hl">CSS Grid</span> with
+        <span class="hl">Wes Bos</span> in <span class="hl">25</span> pretty
+        good videos
+      </p>
+      <p class="hero__text hero__text--small">
+        From <span class="hl">fundamentals</span> to
+        <span class="hl">Real World</span> in about 4 hours.
+      </p>
+      <a href="https://cssgrid.io/account" class="button button__login"
+        >My Account →</a
+      >
+    </header>
+    <div class="topographic">
+      <section class="section">
+        <div class="section__inner">
+          <div class="signup">
+            <div class="signup__step signup__step--1">
+              <div class="signup__section signup__section--price">
+                <div class="price">
+                  <span class="price__value--currency">$</span
+                  ><span class="price__value--dollars">0</span
+                  ><span class="price__value--cents">00</span>
+                </div>
+                <strong>TOTALLY FREE</strong>
+              </div>
+              <div class="signup__section signup__section--email">
+                <h3>Start Learning Today!</h3>
+                <p style="display: none;" class="error-display"></p>
+                <form
+                  name="capture"
+                  method="post"
+                  action="https://cssgrid.io/api/customer/"
+                  class="capture"
+                >
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required=""
+                    placeholder="Email Address"
+                    class="capture__input"
+                  />
+                  <input type="hidden" name="product" value="GRID1" />
+                  <input
+                    type="submit"
+                    value="Join 114,820 Others"
+                    class="capture__input capture__input--submit"
+                  />
+                </form>
+                <p>Sign up to get immediate access to the course dashboard</p>
+                <p>
+                  You'll get all 25 videos at once so you can binge watch
+                  <span class="highlight">Netflix style</span>.
+                </p>
+              </div>
+              <div class="signup__section signup__section--info">
+                <ul class="list">
+                  <li class="list__item--bold">What You'll Get</li>
+                  <li class="list__item">Instant Access to all 25 videos</li>
+                  <li class="list__item">All Starter Files</li>
+                  <li class="list__item">
+                    Completed HTML, CSS and JS Solutions for each Exercise
+                  </li>
+                  <li class="list__item">A real good CSS Grid education</li>
+                </ul>
+              </div>
+            </div>
+            <div class="signup__step signup__step--2">
+              <div>
+                <p>
+                  👌 Almost Done — you'll get a confirmation email any minute
+                  now.
+                </p>
+                <h3>Make it happen - commit to #GriddyUp publicly</h3>
+                <p>
+                  This isn't going to be another course you sign up for and
+                  never do.<br />Let's see this one through. Commit to it
+                  publicly and invite some friends to join you.
+                </p>
+              </div>
+              <div class="share">
+                <div class="share__option">
+                  <iframe
+                    id="twitter-widget-2"
+                    scrolling="no"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allowfullscreen="true"
+                    class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
+                    title="Twitter Tweet Button"
+                    src="./index_files/tweet_button.3c5aa8e2a38bbbee4b6d88e6846fc657.en.html"
+                    data-url="https://cssgrid.io"
+                    style="
+                      position: static;
+                      visibility: visible;
+                      width: 1px;
+                      height: 1px;
+                    "
+                  ></iframe>
+                </div>
+                <div class="share__option">
+                  <div
+                    data-href="https://cssgrid.io"
+                    data-layout="button_count"
+                    data-size="large"
+                    data-mobile-iframe="true"
+                    class="fb-share-button fb_iframe_widget"
+                    fb-xfbml-state="rendered"
+                    fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fcssgrid.io%2F&amp;layout=button_count&amp;locale=en_US&amp;mobile_iframe=true&amp;sdk=joey&amp;size=large"
+                  >
+                    <span
+                      style="vertical-align: bottom; width: 0px; height: 0px;"
+                      ><iframe
+                        name="f1bd50be12afa1c"
+                        width="1000px"
+                        height="1000px"
+                        data-testid="fb:share_button Facebook Social Plugin"
+                        title="fb:share_button Facebook Social Plugin"
+                        frameborder="0"
+                        allowtransparency="true"
+                        allowfullscreen="true"
+                        scrolling="no"
+                        allow="encrypted-media"
+                        src="./index_files/share_button.html"
+                        class=""
+                        style="
+                          border: none;
+                          visibility: visible;
+                          width: 0px;
+                          height: 0px;
+                        "
+                      ></iframe
+                    ></span>
+                  </div>
+                </div>
+                <div class="share__option">
+                  <div
+                    data-href="https://facebook.com/wesbos.developer"
+                    data-layout="button_count"
+                    data-action="like"
+                    data-size="large"
+                    data-show-faces="true"
+                    data-share="true"
+                    class="fb-like fb_iframe_widget"
+                    fb-xfbml-state="rendered"
+                    fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Ffacebook.com%2Fwesbos.developer&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=large"
+                  >
+                    <span
+                      style="vertical-align: bottom; width: 0px; height: 28px;"
+                      ><iframe
+                        name="f28c55ec9643a8c"
+                        width="1000px"
+                        height="1000px"
+                        data-testid="fb:like Facebook Social Plugin"
+                        title="fb:like Facebook Social Plugin"
+                        frameborder="0"
+                        allowtransparency="true"
+                        allowfullscreen="true"
+                        scrolling="no"
+                        allow="encrypted-media"
+                        src="./index_files/like.html"
+                        class=""
+                        style="
+                          border: none;
+                          visibility: visible;
+                          width: 0px;
+                          height: 28px;
+                        "
+                      ></iframe
+                    ></span>
+                  </div>
+                </div>
+                <div class="share__option">
+                  <iframe
+                    id="twitter-widget-0"
+                    scrolling="no"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allowfullscreen="true"
+                    class="twitter-follow-button twitter-follow-button-rendered"
+                    title="Twitter Follow Button"
+                    src="./index_files/follow_button.3c5aa8e2a38bbbee4b6d88e6846fc657.en.html"
+                    data-screen-name="wesbos"
+                    style="
+                      position: static;
+                      visibility: visible;
+                      width: 1px;
+                      height: 1px;
+                    "
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--formation">
+        <div class="section__inner">
+          <div class="side-by-side">
+            <div class="side-by-side__block side-by-side__block--1 promo">
+              <video
+                preload="metadata"
+                poster="https://res.cloudinary.com/wesbos/image/fetch/q_auto,f_auto/https://courses.wesbos.com/images/GRID-poster.png"
+                playsinline=""
+                src="https://player.vimeo.com/external/250688977.sd.mp4?s=d14b1f1a971dde13c79d6e436b88a6a928dfe26b&amp;profile_id=165"
+                onclick="this.paused ? this.play() : this.pause();"
+                class="promo__video"
+              ></video>
+            </div>
+            <div class="notebook side-by-side__block side-by-side__block--2">
+              <p>
+                CSS Grid is a brand new layout system in CSS! It's not a
+                framework or library - it's an addition to the language that
+                allows us to quickly create flexible, two dimensional layouts.
+              </p>
+              <p>
+                We can use it to place, size, align and architect designs that
+                were previously difficult or even impossible with floats or
+                flexbox.
+              </p>
+              <p>
+                CSS Grid may seem a bit daunting with new syntax and layout
+                ideas, but it's fairly simple and can be broken down into a
+                handful of powerful concepts that when used together will blow
+                your mind and change the way you create layouts for the web
+                forever.
+              </p>
+              <p>Ready?! Let's Learn CSS Grid Together!</p>
+            </div>
+            <div class="notebook side-by-side__block side-by-side__block--3">
+              <div class="section__logo">
+                <img
+                  src="./index_files/Firefox_Developer_Edition_Logo,_2017.webp"
+                  width="200"
+                />
+              </div>
+              <div class="section__description">
+                <h2>Wes, How is this Free!? What's the Catch?</h2>
+                <p>
+                  No catch! A huge thanks to Mozilla Firefox who has sponsored
+                  my time to create this course and offer it up for free.
+                  Firefox packs some of the best dev tools and in particular
+                  their CSS Grid Dev tools make understanding, debugging and
+                  visualizing complex grid layouts a snap.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="section section--who">
+      <div class="section__inner descriptions">
+        <div class="description description--wes">
+          <div class="description__box">
+            <h3 class="description__title">Hey, I'm Wes Bos</h3>
+            <img src="./index_files/wes.webp" width="150" class="👨" />
+            <p>
+              Hey —&nbsp;I'm <a href="http://wesbos.com/">Wes Bos</a>. I'm a
+              Full Stack Developer, Speaker and Teacher from Canada. I have
+              taught over 500 students in 200+ classes and spoken at dozens of
+              conferences around the world.
+            </p>
+            <p>
+              I'm the guy behind
+              <a target="_blank" href="https://reactforbeginners.com/"
+                >React For Beginners</a
+              >, <a target="_blank" href="https://es6.io/">ES6 for Everyone</a>,
+              <a href="https://learnnode.com/">Learn Node</a> and
+              <a target="_blank" href="https://sublimetextbook.com/"
+                >Sublime Text Power User</a
+              >
+              which together have sold over 40,000 copies. I'm also the author
+              of <a href="https://javascript30.com/">JavaScript30</a>,
+              <a target="_blank" href="http://learnredux.com/">LearnRedux.com</a
+              >, <a target="_blank" href="http://flexbox.io/">Flexbox.io</a> and
+              <a target="_blank" href="http://commandlinepoweruser.com/"
+                >Command Line Power User</a
+              >, a set of free video series. Over 120,000 people have taken at
+              least one of my free video courses!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section__videos">
+      <div class="section__inner">
+        <h2 class="title title__center">
+          4 Hours<span class="hl">×</span>25 Videos
+        </h2>
+        <div class="captions">
+          <p>
+            <strong>Accessible and ESL friendly!</strong> English Captions are
+            provided for every video 😘
+          </p>
+        </div>
+        <ul
+          data-of="OF COURSE THIS GRID OF VIDEOS IS BUILT IN CSS GRID"
+          class="video-list"
+        >
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/1.webp" alt="Welcome!" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img
+                src="./index_files/2.webp"
+                alt="Starter Files and Tooling Setup"
+              />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/3.webp" alt="CSS Grid Fundamentals" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/4.png" alt="CSS Grid Dev Tools" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img
+                src="./index_files/5.webp"
+                alt="CSS Grid Implicit vs Explicit Tracks"
+              />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img
+                src="./index_files/6.png"
+                alt="CSS grid-auto-flow Explained"
+              />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/7.webp" alt="Sizing tracks in CSS Grid" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/8.png" alt="CSS Grid repeat function" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/9.png" alt="Sizing Grid Items" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/10.webp" alt="Placing Grid Items" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img
+                src="./index_files/11.png"
+                alt="Spanning and Placing Cardio"
+              />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/12.webp" alt="auto-fit and auto-fill" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img
+                src="./index_files/13.webp"
+                alt="Using minmax() for Responsive Grids"
+              />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/14.webp" alt="Grid Template Areas" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/15.webp" alt="Naming Lines in CSS Grid" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img
+                src="./index_files/16.webp"
+                alt="grid-auto-flow dense Block Fitting"
+              />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img
+                src="./index_files/17.webp"
+                alt="CSS Grid Alignment + Centering"
+              />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/18.png" alt="Re-ordering Grid Items" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img
+                src="./index_files/19.png"
+                alt="Nesting Grid with Album Layouts"
+              />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/20.png" alt="CSS Grid Image Gallery" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/21.png" alt="Flexbox vs CSS Grid" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/22.webp" alt="Recreating Codepen" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img
+                src="./index_files/23.webp"
+                alt="Bootstrappy Grid with CSS Variables"
+              />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/24.png" alt="Responsive Website" />
+            </div>
+          </li>
+          <li class="video-list__item">
+            <div class="video-list__image">
+              <img src="./index_files/25.png" alt="Full Bleed Blog Layout" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section section__faq">
+      <div class="section__inner">
+        <div class="faqs">
+          <div class="faqs__title">
+            <h2 class="title title--faq">Frequently, Questions are Asked.</h2>
+          </div>
+          <div class="faq">
+            <h3>What font / color scheme / editor / terminal is that?</h3>
+            <p>
+              I answer everything over at
+              <a href="https://wesbos.com/uses">wesbos.com/uses</a>. Feel free
+              to <a href="https://twitter.com/wesbos">tweet me</a> any more
+              questions!
+            </p>
+          </div>
+          <div class="faq">
+            <h3>
+              What About Browser Support for Grid? What About IE11?! {{insert
+              hipster slight or IE joke Here}}
+            </h3>
+            <p>
+              You need to read Rachel Andrew's article over on
+              <a
+                href="https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/"
+                >Smashing Mag</a
+              >. Even if you decide you can't use it today, I'd recommend still
+              learning it as these older browsers will go away just as quick as
+              grid showed up!
+            </p>
+          </div>
+          <div class="faq">
+            <h3>
+              What about Flexbox? Something you did can be done in 1 line less
+              than Grid!
+            </h3>
+            <p>
+              There is an entire video on CSS Grid vs Flexbox. In short, they
+              both do their own thing, but there is also a large amount of
+              overlap in functionality. Watch the video!
+            </p>
+          </div>
+          <div class="faq">
+            <h3>I have a question, can I email you?</h3>
+            <p>
+              While I'd absolutely love to help everyone out, there are 114,820
+              people taking this course and I can't handle that amount of email.
+              If you are a member of one of my premium classes, you can jump
+              into the #CSSGrid room in our
+              <a href="https://wesbos.slack.com/">Slack channel</a>.
+            </p>
+          </div>
+          <div class="faq">
+            <h3>
+              I lost, deleted or never got my welcome email! What do I do?
+            </h3>
+            <p>
+              Log into <a href="https://cssgrid.io/account">your account</a>, or
+              create an account with the same email you used to get the series.
+            </p>
+          </div>
+          <div class="faq">
+            <h3>
+              Can I host a meetup / study group? Can I stream these in my
+              classroom? Can I arrange a playing?
+            </h3>
+            <p>
+              Yep yep yep - as long as you do not redistribute the videos you
+              are welcome and encouraged to do this.
+            </p>
+          </div>
+          <div class="faq">
+            <h3>Can I re-distribute these and then charge money for them?</h3>
+            <p>
+              I can't believe I have to make this a FAQ. No, you silly goose.
+            </p>
+          </div>
+          <div class="faq">
+            <h3>Will these be on YouTube too?</h3>
+            <p>
+              Yep - over the next few weeks I'll be dripping them out on my
+              YouTube channel, which you should
+              <a href="https://www.youtube.com/wesbos">totally subscribe to</a>.
+            </p>
+          </div>
+          <div class="faq">
+            <h3>I found a typo or errata</h3>
+            <p>
+              If it's a typo on the site, please shoot me an email
+              <a href="mailto:hey@wesbos.com">here</a>. If it's a correction in
+              the code, you can submit those via GitHub! Please see the above
+              FAQ if you found a better way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section__thanks">
+      <div class="section__inner">
+        <h2>Thanks!</h2>
+        <p>
+          A huge thanks to everyone who has helped make the course a reality.
+        </p>
+        <ul class="thanks">
+          <li>
+            <a href="https://twitter.com/rachelandrew">Rachel Andrew</a> and
+            <a href="https://twitter.com/jensimmons">Jen Simmons</a> for their
+            work and contributions over the past several years on CSS Grid.
+            Their work is the reason why the CSS Grid spec is so rock solid
+            today and have been speaking and writing about CSS grid long before
+            most of us had even heard of it. I specifically found lots of help
+            from
+            <a href="https://github.com/rachelandrew/cssgrid-ama"
+              >Rachel's Grid AMA</a
+            >
+            on Github.
+          </li>
+          <li>
+            <a href="https://twitter.com/bdc/">Benjamin De Cock</a> for his many
+            grid related tweets and insights
+          </li>
+          <li>
+            CSS Tricks's
+            <a href="https://css-tricks.com/snippets/css/complete-guide-grid/"
+              >CSS Grid Guide</a
+            >
+            is the ultimate CSS Grid reference - we use it in this course!
+          </li>
+          <li>
+            <a href="https://github.com/RTSchriner">Riley Schriner</a>,
+            <a href="https://github.com/mike-henderson">Mike Henderson</a>,
+            <a href="https://github.com/jima-zillow">Jim Arment</a>,
+            <a href="https://github.com/JulianNicholls">Julian Nicholls</a>,
+            <a href="https://github.com/bencodezen">Ben Hong</a> and everyone
+            else who reviewed this content before it launched to the masses.
+            Your finessing of the content is much appreciated!
+          </li>
+          <li>
+            <a href="https://twitter.com/kleinfreund">Philipp Rudloff</a> for
+            showing me the sidebar "tip" design pattern we use in video 25
+          </li>
+          <li>
+            <a href="https://www.twitter.com/dhanishgajjar/">Dhanish Gajjar</a>
+            for designing all the cover art thumbnails
+          </li>
+          <li>
+            <a
+              href="https://cloudinary.com/?utm_source=cssgrid&amp;utm_medium=Website&amp;utm_content=powered_by"
+              >Cloudinary</a
+            >
+            for hosting, compressing and resizing the images on this site.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section section__footer">
+      <div class="section__inner">
+        <div class="share">
+          <div class="share__option">
+            <iframe
+              id="twitter-widget-3"
+              scrolling="no"
+              frameborder="0"
+              allowtransparency="true"
+              allowfullscreen="true"
+              class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
+              style="
+                position: static;
+                visibility: visible;
+                width: 76px;
+                height: 28px;
+              "
+              title="Twitter Tweet Button"
+              src="./index_files/tweet_button.3c5aa8e2a38bbbee4b6d88e6846fc657.en(1).html"
+              data-url="https://cssgrid.io"
+            ></iframe>
+          </div>
+          <div class="share__option">
+            <div
+              data-href="https://cssgrid.io"
+              data-layout="button_count"
+              data-size="large"
+              data-mobile-iframe="true"
+              class="fb-share-button fb_iframe_widget"
+              fb-xfbml-state="rendered"
+              fb-iframe-plugin-query="app_id=&amp;container_width=46&amp;href=https%3A%2F%2Fcssgrid.io%2F&amp;layout=button_count&amp;locale=en_US&amp;mobile_iframe=true&amp;sdk=joey&amp;size=large"
+            >
+              <span style="vertical-align: bottom; width: 107px; height: 28px;"
+                ><iframe
+                  name="f3c08f7871b5ab"
+                  width="1000px"
+                  height="1000px"
+                  data-testid="fb:share_button Facebook Social Plugin"
+                  title="fb:share_button Facebook Social Plugin"
+                  frameborder="0"
+                  allowtransparency="true"
+                  allowfullscreen="true"
+                  scrolling="no"
+                  allow="encrypted-media"
+                  src="./index_files/share_button(1).html"
+                  style="
+                    border: none;
+                    visibility: visible;
+                    width: 107px;
+                    height: 28px;
+                  "
+                  class=""
+                ></iframe
+              ></span>
+            </div>
+          </div>
+          <div class="share__option">
+            <div
+              data-href="https://facebook.com/wesbos.developer"
+              data-layout="button_count"
+              data-action="like"
+              data-size="large"
+              data-show-faces="true"
+              data-share="true"
+              class="fb-like fb_iframe_widget"
+              fb-xfbml-state="rendered"
+              fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=108&amp;href=https%3A%2F%2Ffacebook.com%2Fwesbos.developer&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=large"
+            >
+              <span style="vertical-align: bottom; width: 157px; height: 28px;"
+                ><iframe
+                  name="f2637bc4d40d44"
+                  width="1000px"
+                  height="1000px"
+                  data-testid="fb:like Facebook Social Plugin"
+                  title="fb:like Facebook Social Plugin"
+                  frameborder="0"
+                  allowtransparency="true"
+                  allowfullscreen="true"
+                  scrolling="no"
+                  allow="encrypted-media"
+                  src="./index_files/like(1).html"
+                  style="
+                    border: none;
+                    visibility: visible;
+                    width: 157px;
+                    height: 28px;
+                  "
+                  class=""
+                ></iframe
+              ></span>
+            </div>
+          </div>
+          <div class="share__option">
+            <iframe
+              id="twitter-widget-1"
+              scrolling="no"
+              frameborder="0"
+              allowtransparency="true"
+              allowfullscreen="true"
+              class="twitter-follow-button twitter-follow-button-rendered"
+              style="
+                position: static;
+                visibility: visible;
+                width: 236px;
+                height: 28px;
+              "
+              title="Twitter Follow Button"
+              src="./index_files/follow_button.3c5aa8e2a38bbbee4b6d88e6846fc657.en(1).html"
+              data-screen-name="wesbos"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="./index_files/sdk.js"
+      async=""
+      crossorigin="anonymous"
+    ></script>
+    <script async="" src="./index_files/analytics.js"></script>
+    <script async="" src="./index_files/fbevents.js"></script>
+    <script id="facebook-jssdk" src="./index_files/sdk(1).js"></script>
+    <script id="twitter-wjs" src="./index_files/widgets.js"></script>
+    <script src="./index_files/polyfill.js"></script>
+    <script>
+      window.country = 'FR';
+    </script>
+    <script src="./index_files/main.js"></script>
+    <script src="./index_files/oct.js"></script>
+    <script src="./index_files/raven.min.js"></script>
+    <script>
+      // check this custom ass google analytics 👌
+      (function (w, e, s, _, b, o, $) {
+        w['GoogleAnalyticsObject'] = b;
+        (w[b] =
+          w[b] ||
+          function () {
+            (w[b].q = w[b].q || []).push(arguments);
+          }),
+          (w[b].l = 1 * new Date());
+        (o = e.createElement(s)), ($ = e.getElementsByTagName(s)[0]);
+        o.async = 1;
+        o.src = _;
+        $.parentNode.insertBefore(o, $);
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga'
+      );
+
+      ga('create', 'UA-69447947-6', 'auto');
+      ga('send', 'pageview');
+      ga(window.removeUtms);
+      Raven.config(
+        'https://9b1055a49cce467eadae790e4ae99ccf@sentry.io/129065'
+      ).install();
+    </script>
+
+    <iframe
+      scrolling="no"
+      frameborder="0"
+      allowtransparency="true"
+      src="./index_files/widget_iframe.3c5aa8e2a38bbbee4b6d88e6846fc657.html"
+      title="Twitter settings iframe"
+      style="display: none;"
+    ></iframe>
+    <div id="fb-root" class="fb_reset">
+      <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+        <div></div>
+      </div>
+    </div>
+    <iframe
+      id="rufous-sandbox"
+      scrolling="no"
+      frameborder="0"
+      allowtransparency="true"
+      allowfullscreen="true"
+      style="
+        position: absolute;
+        visibility: hidden;
+        display: none;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+        border: none;
+      "
+      title="Twitter analytics iframe"
+      src="./index_files/saved_resource.html"
+    ></iframe>
+  </body>
+</html>
